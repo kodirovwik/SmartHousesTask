@@ -19,7 +19,7 @@ class MoreTwoAuthMonthMessage implements MessageInterface, JobHelpersInterface
 
     public function getScheduleTime(): string
     {
-        return '46 16 * * *';
+        return '0 20 * * *';
     }
 
     public function getMessage(User $user): string

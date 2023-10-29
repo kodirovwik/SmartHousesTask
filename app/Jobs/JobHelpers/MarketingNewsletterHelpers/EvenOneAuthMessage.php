@@ -16,7 +16,7 @@ class EvenOneAuthMessage implements MessageInterface, JobHelpersInterface
 
     public function getScheduleTime(): string
     {
-        return '20 17 * * *';
+        return '0 10 * * *';
     }
 
     public function getMessage(User $user): string
